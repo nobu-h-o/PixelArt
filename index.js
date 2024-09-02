@@ -138,7 +138,7 @@ gridSize.addEventListener("input", () => {
     sizeValue.innerHTML = gridSize.value;
 });
 
-
+//Initially create a grid of size 20
 window.onload = () => {
     gridSize.value = 20;
     //count variable for generating unique ids
